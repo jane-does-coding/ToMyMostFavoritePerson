@@ -18,7 +18,7 @@ const Page = () => {
 
 			{/* Continue button */}
 
-			<p className="sugar text-[4vh] font-extralight w-[50vw] left-[50vw] translate-x-[-50%] absolute top-[10vh] text-center">
+			<p className="sugar text-[4vh] font-extralight w-[55vw] left-[50vw] translate-x-[-50%] absolute top-[10vh] text-center">
 				I really value what we had, and I want you to know that you were and
 				will be important to me. I know I hurt you, and I know I made you feel
 				like you weren't important, but that isn't true. Maybe at some other
@@ -27,7 +27,7 @@ const Page = () => {
 			<div className="absolute top-[42.5vh] left-[38vw] translate-x-[-50%] z-99">
 				<Button text={"Please forgive me"} />
 			</div>
-			<div className="absolute top-[42.5vh] left-[60vw] translate-x-[-50%] z-99">
+			<div className="absolute top-[42.5vh] left-[62vw] translate-x-[-50%] z-99">
 				<Button text={"Happy Valentines Day"} />
 			</div>
 			<p className="absolute top-[52.5vh] sugar text-[2.75vh] underline left-[50vw] translate-x-[-50%]">
