@@ -111,7 +111,7 @@ const Page = () => {
 					</p>
 					<div className="flex py-[1.5vh]"></div>
 					<div className="flex bg-blue-300/0 gap-[1vw]">
-						<div className="flex flex-col items-start justify-between w-4/7 py-[1vh]">
+						<div className="flex flex-col items-start justify-center gap-[1.5vh] w-4/7 py-[1vh]">
 							<h2 className="sugar underline italic text-[2.5vh]">
 								...and for all the fun times
 							</h2>

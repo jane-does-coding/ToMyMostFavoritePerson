@@ -22,7 +22,7 @@ const Page = () => {
 				I really value what we had, and I want you to know that you were and
 				will be important to me. I know I hurt you, and I know I made you feel
 				like you weren't important, but that isn't true. Maybe at some other
-				point in our lifes, things would be different.
+				point in our lifes, things would of be different.
 			</p>
 			<div className="absolute top-[42.5vh] left-[38vw] translate-x-[-50%] z-99">
 				<Button text={"Please forgive me"} />

@@ -41,7 +41,7 @@ const Page = () => {
 				Some of the dates that matter
 			</h1>
 			<h2 className="absolute top-[20vh] left-[50%] translate-x-[-50%] sugar text-[3vh] font-extralight mx-auto text-center min-w-fit w-[90vw]">
-				{"(Reducted for reviewer)"}
+				{"(Because they are all important to me)"}
 			</h2>
 			<div className="bg-pink-200 border-2 border-black top-[30vh] left-[10vw] rounded-[2vh] absolute overflow-hidden min-w-[15vw] w-[80vw]">
 				<div className="flex w-full border-b-2 border-black">
@@ -49,7 +49,7 @@ const Page = () => {
 						December 14, 2024
 					</h2>
 					<h2 className="w-1/2 py-[2vh] px-[2vw] text-[2.5vh] sugar bg-pink-100">
-						Some Event
+						First Love Confession
 					</h2>
 				</div>
 				<div className="flex w-full border-b-2 border-black">
@@ -57,23 +57,31 @@ const Page = () => {
 						January 5th, 2025
 					</h2>
 					<h2 className="w-1/2 py-[2vh] px-[2vw] text-[2.5vh] sugar bg-pink-100">
-						Some Event
+						Officially Asked me out
 					</h2>
 				</div>
 				<div className="flex w-full border-b-2 border-black">
 					<h2 className="w-1/2 py-[2vh] px-[2vw] text-[2.5vh] sugar border-r-2">
-						April 20th, 2025
+						January 5th, 2025
 					</h2>
 					<h2 className="w-1/2 py-[2vh] px-[2vw] text-[2.5vh] sugar bg-pink-100">
-						Some Event
+						First Date
+					</h2>
+				</div>
+				<div className="flex w-full border-b-2 border-black">
+					<h2 className="w-1/2 py-[2vh] px-[2vw] text-[2.5vh] sugar border-r-2">
+						January 8th, 2025
+					</h2>
+					<h2 className="w-1/2 py-[2vh] px-[2vw] text-[2.5vh] sugar bg-pink-100">
+						First Kiss
 					</h2>
 				</div>
 				<div className="flex w-full">
 					<h2 className="w-1/2 py-[2vh] px-[2vw] text-[2.5vh] sugar border-r-2">
-						April 4th, 2025
+						January 9th, 2025
 					</h2>
 					<h2 className="w-1/2 py-[2vh] px-[2vw] text-[2.5vh] sugar bg-pink-100">
-						Some Event
+						First Flowers
 					</h2>
 				</div>
 			</div>
