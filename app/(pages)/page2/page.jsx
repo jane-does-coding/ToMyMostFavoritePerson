@@ -1,0 +1,59 @@
+import Button from "@/app/components/Button";
+import React from "react";
+
+const Page = () => {
+	return (
+		<div className="relative h-screen w-full overflow-hidden">
+			{/* Background image */}
+			<img
+				src="/imgs/bg.jpg"
+				alt="Background board"
+				className="absolute w-full h-full object-cover -z-10"
+			/>
+
+			{/* Back button */}
+			<a href="/page1" className="absolute top-[2vh] left-[2vw] z-99">
+				<Button text={"Go Back"} />
+			</a>
+
+			{/* Continue button */}
+			<a href="/page3" className="absolute top-[2vh] right-[2vw] z-99">
+				<Button text={"Continue"} />
+			</a>
+
+			<div className="flex flex-col absolute top-[17.5vh] left-[7.5vw] z-99 gap-[1vh]">
+				<h2 className="sugar text-[12vh] leading-[14vh]">You Belong</h2>
+				<h2 className="sugar text-[12vh] leading-[14vh]">in my</h2>
+				<h2 className="sugar text-[12vh] leading-[14vh]">Heart</h2>
+			</div>
+
+			<div className="flex flex-col absolute top-[17.5vh] right-[7.5vw] z-99 items-end justify-center">
+				<p className="text-right text-[3vh] sugar font-extralight max-w-[27.5vw]">
+					The "happily ever after" was something that I haven't got to
+					experience with you, but I know we had something really special, which
+					will stay with me.
+				</p>
+				<p className="text-right text-[3vh] sugar font-extralight max-w-[20vw]">
+					I know that both of us will have something really special in the
+					future, but it won't be together, it will be apart.
+				</p>
+				<p className="text-right text-[3vh] sugar font-extralight max-w-[12.5vw]">
+					It will always stay in my memories, heart, and soul.
+				</p>
+			</div>
+
+			<img
+				src="/imgs/locket2.png"
+				className="w-[50vw] absolute z-99 top-0 left-[50vw] animate-slide-down"
+				alt=""
+			/>
+			<img
+				src="/imgs/envelope-red.png"
+				className="w-[40vw] absolute z-97 bottom-0 left-[50vw] animate-slide-up"
+				alt=""
+			/>
+		</div>
+	);
+};
+
+export default Page;
